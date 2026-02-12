@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.stats {
+    margin: 20px;
+    font-size: 18px;
+}
+
+#game-area {
+    margin: 30px auto;
+    min-height: 120px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #6366f1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4f46e5;
+    transform: scale(1.05);
+}
+
+.correct {
+    color: #22c55e;
+}
+
+.wrong {
+    color: #ef4444;
+}
